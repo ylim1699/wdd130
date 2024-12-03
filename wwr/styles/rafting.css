@@ -1,0 +1,68 @@
+:root {
+    --primary-color: #C6C5B9; 
+    --secondary-color: #475657 ;
+    --accent1-color: #62929E ;
+    --accent2-color: #4A6D7C;
+}
+
+body {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400; 
+}
+
+.hero h1 {
+    position: absolute;
+    font-weight: 100;
+    box-sizing: border-box;
+    
+    top:5rem;
+    right: 35rem;
+    text-align:center;
+    /* I have no idea why the width doesnt align center when I put width as 100%; when I did display:flex and jc with align items to this parent function :( */
+    width:;
+
+    color: var(--accent1-color);
+    background: var(--primary-color);
+	padding: 0.65rem;
+}
+
+h2 {
+    color: var(--accent2-color);
+}
+
+.hero {
+    position:relative;
+
+    /* this allows the children element to be centered to the parent which is div with the class "hero" */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+	height: 35rem;  
+}
+
+.hero article {
+    position: absolute;
+    box-sizing: border-box;
+    width:80%;
+    height:auto;
+    
+
+    background: var(--primary-color);
+	padding: 0.65rem;
+}
+
+.hero article img {
+    width: 10rem;
+    height: auto;
+    float:right;
+}
+
+
+.medialinks a {
+    text-decoration:none;
+}
