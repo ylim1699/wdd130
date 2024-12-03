@@ -10,6 +10,15 @@ body {
     font-weight: 400; 
 }
 
+.hero {
+    position:relative;
+
+    /* this allows the children element to be centered to the parent which is div with the class "hero" */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero h1 {
     position: absolute;
     font-weight: 100;
@@ -24,19 +33,6 @@ body {
     color: var(--accent1-color);
     background: var(--primary-color);
 	padding: 0.65rem;
-}
-
-h2 {
-    color: var(--accent2-color);
-}
-
-.hero {
-    position:relative;
-
-    /* this allows the children element to be centered to the parent which is div with the class "hero" */
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .hero img {
@@ -62,6 +58,9 @@ h2 {
     float:right;
 }
 
+h2 {
+    color: var(--accent2-color);
+}
 
 .medialinks a {
     text-decoration:none;
