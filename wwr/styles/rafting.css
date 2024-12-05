@@ -23,8 +23,6 @@ p {
 
 .hero {
     position:relative;
-
-    /* this allows the children element to be centered to the parent which is div with the class "hero" */
     display: flex;
     justify-content: center;
     align-items: center;
