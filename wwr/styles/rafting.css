@@ -72,7 +72,7 @@ h1, h2 {
     float:right;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     font-weight: 100;
     
@@ -128,7 +128,6 @@ h2 {
 .adventure {
     background-color: var(--primary-color);
     display:grid;
-    margin-bottom: 15%;
     padding-bottom: 5%;
     border: 5px solid var(--secondary-color);
 }
@@ -166,6 +165,7 @@ footer {
     justify-content: space-around;
     padding: 5%;
     border-bottom: 10px solid var(--secondary-color);
+    margin-top:15%;
 }
 
 
@@ -184,3 +184,83 @@ footer {
 
 
 
+/* Contact html specific */
+
+.contact {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-color);
+    border: 5px dashed var(--secondary-color);
+    color: var(--accent2-color);
+    margin-bottom: 15%;
+}
+
+.contact h1 {
+    font-weight:bold;
+}
+
+.map {
+   padding: 2.5%;
+   max-width: 600px;
+   max-height: 450px;
+}
+
+.encouragement {
+    display:flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    padding: 5%;
+    border: 5px dashed var(--secondary-color);
+    margin-bottom: 15%;
+}
+
+.encouragement figcaption {
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: white;
+    border: 3px solid black;
+}
+
+.encouragement img {
+    height: 15rem;
+    width:auto;
+}
+
+.forms {
+    display:flex;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    padding: 5%;
+    border: 5px dashed var(--secondary-color);
+}
+
+.forms div {
+    margin-bottom: 2rem;
+}
+
+label {
+    font-weight:bold;
+}
+
+#comment {
+    display:flex;
+    width: 30rem; 
+    height: 15rem; 
+    font-size: 16px; 
+    padding: 5%; 
+}
+
+#subscribe {
+    color:blue;
+}
+
+.special {
+    color: blue;
+}
+
+button {
+    border: 2px solid black;
+    width:10rem;
+    height:2rem;
+}
