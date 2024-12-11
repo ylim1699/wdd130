@@ -205,9 +205,12 @@ footer {
 }
 
 .map {
-   padding: 2.5%;
-   max-width: 50%;
-   max-height: auto;
+    display:flex;
+    width:100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5%;
 }
 
 .encouragement {
