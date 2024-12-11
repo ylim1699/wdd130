@@ -208,7 +208,7 @@ footer {
 
 .encouragement {
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: var(--primary-color);
     border: 5px dashed var(--secondary-color);
     margin-bottom: 15%;
