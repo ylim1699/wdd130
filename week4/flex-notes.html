@@ -1,0 +1,97 @@
+<!-- 
+!!!display:flex;!!!
+
+* justify-content - horizontal except when flex-direction is reversed (verticle)
+> flex-start, flex-end, center, space-around, space-between
+
+
+* align-items - verticle except when flex-direction is reversed (horizontal)
+
+
+* flex-direction - row and column or -reverse changes how they are lined up
+
+
+* order - can pick out specific item and change it's position
+> order: 1; the middle item is 0 and goes left negative and right positive -2 -1 0 1 2
+
+
+* align-self - same as align-items but more specific
+
+
+* flex-wrap property, which accepts the following values:
+>nowrap: Every item is fit to a single line.
+>wrap: Items wrap around to additional lines.
+>wrap-reverse: Items wrap around to additional lines in reverse.
+
+
+*The two properties flex-direction and flex-wrap are used so often together that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of the two properties separated by a space.
+> you can use flex-flow: row wrap
+
+
+*You can use align-content to set how multiple lines are spaced apart from each other. This property takes the following values:
+>flex-start: Lines are packed at the top of the container.
+>flex-end: Lines are packed at the bottom of the container.
+>center: Lines are packed at the vertical center of the container.
+>space-between: Lines display with equal spacing between them.
+>space-around: Lines display with equal spacing around them.
+>stretch: Lines are stretched to fit the container.
+>This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect.
+
+-->
+
+<!--
+
+!!!!!! display:  grid; !!!!!!
+    > Parent element that contain a grid layout are given the display:grid declaration. The immediate children of that parent container can the nrespond to grid declarations but the grandchildren cannot
+
+a) grid-column-start: #;
+    >This will move the children content in a parent to the declared # (x-axis)
+
+b) grid-column-end: #;
+    >This will span the content across multiple columns, up to the # declared (you count the placement from the left side of the block   |  |  |  |  | )
+                                                                                                                                         1  2  3  4  5
+
+c) grid-column: #/#;
+    >Declaration that is both start and end seperated by a slash. left # of / is "start" and right # of / is "end"
+
+** grid-column: 2/span 3; this will start at line 2 and then span 3 spaces total; 
+
+d) grid-row-start: #;
+    > Moves child content in a parent to the declared # (y-axis)
+
+e) grid-row: #/#; 
+    >Same principle as grid-column; declaration
+
+f) grid-area: #/#/#/#;
+    > row start / column start / row end / column end;
+
+g) order: #;
+    >If items aren't placed with grid-area, column, or row, then they are automatically ordered in the source code. By default all grid items have a default value of 0.
+
+** Setting up parent template as a grid:
+    > parent {
+        display:grid;
+        display-template-columns: 50% 50%;
+        display-template-rows: 25% 25% 25% 25%;
+             ___ ___ 
+            |___ ___|
+            |___ ___|
+            |___ ___|
+            |___ ___|
+
+    You can also use em px and fr. 
+    -fr is f raction so leess writing than %, ex:
+    display-template-columns: 1fr 3fr;
+        > This will display 1/4 and 3/4, so 25% and 75%
+    }
+
+** When columns or rows are set with % em or px, the remaining space will be divided if labeled as fr evenly. EX:
+    display:grid
+        grid-template-columns: 75 px 3fr 2fr;
+            >    75px | 3/5 | 2/5
+   
+            
+** display:grid:
+    grid-template: grid template rows / grid template columns;
+    > shortcut
+-->
