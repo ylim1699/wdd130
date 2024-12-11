@@ -32,12 +32,12 @@ header nav {
 }
 
 body {
-    font-family: "Baskervville SC", serif;
+    font-family: "Edu AU VIC WA NT Hand", serif;
     font-weight: 400; 
 }
 
-p, figcaption {
-    font-family: "Edu AU VIC WA NT Hand", serif;
+h1, h2 {
+    font-family: "Baskervville SC", serif;
     font-weight: 400;
 }
 
