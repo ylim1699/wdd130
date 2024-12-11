@@ -11,7 +11,7 @@ header {
     align-items: center;
 
     border-bottom: 7px solid var(--secondary-color);
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     padding-bottom: 2.5%;
     background-color: var(--primary-color);
 }
@@ -46,7 +46,7 @@ h1, h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
 }
 
 .hero img {
