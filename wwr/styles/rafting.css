@@ -162,12 +162,12 @@ h2 {
 }
 
 footer {
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     display:flex;
     align-items: center;
     justify-content: space-between;
     padding: 5%;
-    border-bottom: 10px solid var(--secondary-color);
+    border-bottom: 10px solid var(--primary-color);
     margin-top:15%;
     color: white;
 }
@@ -528,7 +528,7 @@ td:last-of-type {
     text-align: center;
   }
 tbody {
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     color:white;
   }
   
