@@ -292,6 +292,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 10px solid black;
     margin-bottom: 15%;
 }
 
@@ -299,6 +300,7 @@ button {
     position:absolute;
     font-weight: 100;
     font-size: 500%;
+    border-bottom: 5px solid black;
     
     top:30%;
     text-align:center;
@@ -333,6 +335,7 @@ button {
 
 .newsletter-form h2 {
     font-weight:bold;
+    color:black;
 }
 
 .go-trip {
@@ -341,8 +344,9 @@ button {
     flex-direction: column;
     justify-content:center;
     align-items:center;
-    background-color: var(--accent1-color);
-    border: 5px dashed var(--secondary-color);
+    background-color: var(--secondary-color);
+    border: 5px dashed var(--primary-color);
+    padding:2.5%;
     margin-bottom:15%;
 }
 
@@ -350,7 +354,7 @@ button {
     background-color: rgba(74, 109, 124, 0.5);
     padding:2.5%;
     font-size: 200%;
-    color: var(--primary-color);
+    color: white;
 }
 
 .go-trip img {
@@ -359,9 +363,11 @@ button {
     border: 5px solid grey;
 }
 
-.go-trip nav {
-    font-size: 200%;
+.go-trip nav a {
+    font-size: 105%;
     padding:2%;
+    color:white;
+    white-space: nowrap;
 }
 
 .purpose {
@@ -386,7 +392,8 @@ button {
     text-align: center;
     padding: 2%;
     background-color: rgba(129, 166, 223, 0.3);
-    border: 5px solid var(--accent1-color)
+    border: 5px solid var(--accent1-color);
+    color: black;
 }
 
 .purpose p {
