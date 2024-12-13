@@ -165,15 +165,16 @@ footer {
     background-color: var(--accent2-color);
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 5%;
     border-bottom: 10px solid var(--secondary-color);
     margin-top:15%;
+    color: white;
 }
 
 
 .medialinks {
-    display:flex
+    display:flex;
 }
 
 .medialinks img {
@@ -183,6 +184,7 @@ footer {
 
 .medialinks a {
     text-decoration:none;
+    color:white;
 }
 
 
@@ -526,7 +528,8 @@ td:last-of-type {
     text-align: center;
   }
 tbody {
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
+    color:white;
   }
   
 tfoot th {
