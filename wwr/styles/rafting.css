@@ -43,6 +43,7 @@ body {
 h1, h2 {
     font-family: "Baskervville SC", serif;
     font-weight: 400;
+    color: black;
 }
 
 .hero {
@@ -87,10 +88,6 @@ h1, h2 {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
 	padding: 2.5%;
-}
-
-h2 {
-    color: var(--accent2-color);
 }
 
 .history {
@@ -156,7 +153,7 @@ h2 {
   
 .adventure figcaption {
     background-color: var(--secondary-color);
-    color: var(--accent1-color); 
+    color: white; 
     padding: 3px;
     text-align: center;
 }
