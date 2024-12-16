@@ -3,9 +3,6 @@
 }
 
 main {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
     max-width: 100%;
 }
 
@@ -22,7 +19,7 @@ aside {
     color: white;
 }
 
-main aside img {
+aside img {
     width:200px;
     height:auto;
 }
