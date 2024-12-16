@@ -194,7 +194,7 @@ footer {
     align-items: center;
     background-color: var(--primary-color);
     border: 5px dashed var(--secondary-color);
-    color: var(--accent2-color);
+    color: black;
     margin-bottom: 15%;
 }
 
@@ -268,12 +268,8 @@ label {
     padding: 5%; 
 }
 
-#subscribe {
-    color:blue;
-}
-
 .special {
-    color: blue;
+    color: darkblue;
 }
 
 button {
